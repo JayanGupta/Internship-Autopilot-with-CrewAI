@@ -43,7 +43,7 @@ graph TD
 
 ---
 
-## ⚙️ Installation & Workspace Setup
+## Installation & Workspace Setup
 
 ### 1. Environment Installation
 Install the core automation frameworks using `pip`:
