@@ -1,0 +1,50 @@
+Priya Sharma
+B.Tech Computer Science Engineering, 2025 | BITS Pilani
+Email: priya.sharma@example.com | GitHub: github.com/priyasharma | LinkedIn: linkedin.com/in/priyasharma
+
+SKILLS
+Languages: Python, JavaScript, Java, SQL, C++
+Frameworks & Libraries: React.js, Node.js, Express.js, FastAPI, Flask, TensorFlow, PyTorch, Pandas, NumPy, scikit-learn
+Tools & Platforms: Git, Docker, AWS (EC2, S3), MongoDB, PostgreSQL, REST APIs, Postman
+Domains: Machine Learning, Full-Stack Development, Natural Language Processing, Data Analysis
+
+PROJECTS
+
+AI-Powered Resume Analyzer (Python, NLP, FastAPI, React)
+- Built a web application that analyzes resumes using NLP techniques to extract key skills, experience, and education, and provides a match score against job descriptions
+- Implemented TF-IDF vectorization and cosine similarity algorithms to compute relevance scores between resumes and job postings
+- Deployed the FastAPI backend on AWS EC2 and React frontend on Vercel, handling 500+ analysis requests in beta testing
+- Achieved 87% accuracy in skill extraction compared to manual human review
+
+E-Commerce Price Tracker & Notifier (Node.js, MongoDB, Web Scraping)
+- Developed a full-stack application that tracks product prices across Amazon, Flipkart, and other e-commerce platforms and sends email alerts when prices drop
+- Implemented web scraping using Puppeteer and Cheerio to collect real-time pricing data from multiple sources
+- Designed a MongoDB database schema to store product information, price history, and user preferences
+- Integrated SendGrid API for automated email notifications, serving 200+ active users
+
+Sentiment Analysis Dashboard for Product Reviews (Python, Machine Learning, Streamlit)
+- Created an interactive dashboard that performs sentiment analysis on product reviews scraped from Amazon and displays insights through visualizations
+- Trained a LSTM neural network model using TensorFlow achieving 91% accuracy on a dataset of 50,000 reviews
+- Built data visualizations using Plotly and Matplotlib to show sentiment trends, word clouds, and rating distributions
+- Deployed as a Streamlit web app allowing users to input product URLs and get instant sentiment analysis
+
+Smart Expense Tracker with OCR (React Native, Firebase, Google Cloud Vision API)
+- Developed a mobile application that uses OCR to extract transaction details from receipt photos and automatically categorizes expenses
+- Integrated Google Cloud Vision API for text recognition from images with 94% accuracy
+- Implemented user authentication and real-time data synchronization using Firebase
+- Added data visualization features showing spending patterns and budget tracking across categories
+
+EXPERIENCE
+
+Software Development Intern | TechStartup Solutions | May 2024 - July 2024
+- Worked on the backend team to develop REST APIs for a customer relationship management (CRM) platform using Node.js and PostgreSQL
+- Optimized database queries reducing API response time by 40% through proper indexing and query restructuring
+- Collaborated with frontend developers to integrate APIs and resolve cross-origin resource sharing (CORS) issues
+- Participated in code reviews and followed agile development practices with bi-weekly sprints
+
+ACHIEVEMENTS
+- Winner, Smart India Hackathon 2024 - Built an AI-powered solution for traffic management winning among 500+ teams
+- Top 5%, Google HashCode 2024 - Ranked in top 5% globally in algorithmic problem-solving competition
+- Published Research Paper - Co-authored paper on "Optimizing Resource Allocation in Cloud Computing using Machine Learning" presented at IEEE conference
+- Open Source Contributor - Contributed to 3 open-source projects including a popular Python data visualization library with 10+ merged pull requests
+- Coursera Certifications - Completed Machine Learning Specialization by Andrew Ng and AWS Fundamentals Specialization
