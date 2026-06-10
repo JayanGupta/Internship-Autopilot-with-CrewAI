@@ -3,7 +3,7 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Version"></a>
   <a href="https://github.com/joaomdmoura/crewai"><img src="https://img.shields.io/badge/Framework-CrewAI-10B981?style=for-the-badge" alt="CrewAI Framework"></a>
-  <a href="#"><img src="https://img.shields.io/badge/LLM-Gemini_2.5_Flash-8B5CF6?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini Engine"></a>
+  <a href="#"><img src="https://img.shields.io/badge/LLM-Gemini_3.0_Flash-8B5CF6?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Gemini Engine"></a>
   <a href="#"><img src="https://img.shields.io/badge/UI-HTML5_Presentation-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5 UI"></a>
   <a href="#"><img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge" alt="MIT License"></a>
 </p>
@@ -53,7 +53,7 @@ pip install -q crewai crewai-tools
 ```
 ### ⚙️ 2. API Credentials Configuration
 
-This pipeline uses **Gemini 2.5 Flash** for low latency and sharp execution. Set your credential depending on your execution workspace:
+This pipeline uses **Gemini 3.0 Flash** for low latency and sharp execution. Set your credential depending on your execution workspace:
 
 #### 🌐 Google Colab Workspace
 Add your API key inside the Colab Left-Sidebar Secrets panel (**🔑**) with the exact label name: `GEMINI_API_KEY`.
@@ -110,3 +110,18 @@ Thank you,
 
 Priya Sharma
 ```
+## ⚠️ CrewAI Version Compatibility
+
+CrewAI is evolving rapidly and newer versions have introduced changes to how agent execution interacts with Python event loops.
+
+If you encounter an error similar to:
+
+```python
+RuntimeError: Agent execution was invoked synchronously from within a running event loop
+```
+
+it is usually caused by:
+
+- Running the notebook inside Jupyter/Colab/VS Code Interactive environments
+- Differences between CrewAI versions
+- Async vs synchronous execution conflicts
