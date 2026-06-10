@@ -38,7 +38,7 @@ graph TD
 
 ## 📁 Repository Structure
 
-* **`InternshipAutopilot.ipynb` 🤖**: The execution engine containing the CrewAI setups, task definitions, and configuration logic.
+* **`CrewAI_Internship.ipynb` 🤖**: The execution engine containing the CrewAI setups, task definitions, and configuration logic.
 * **`CrewAI.html` 🎨**: A premium, dark-mode workshop slide deck constructed with modern typography (`Outfit` & `DM Sans`) and custom interactive navigation mechanisms.
 
 ---
